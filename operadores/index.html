@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Operadores</h1>    
+    <h2>Operadores Aritiméticos</h2>
+    <code>
+        <p>let salario = 100</p>
+        <p>console.log(salario + salario)</p>
+        <p>console.log(salario - salario)</p>
+        <p>console.log(salario * salario)</p>
+        <p>console.log(salario / salario)</p>
+        <p>console.log(salario ** salario)</p>
+        <p>console.log(salario % salario)</p>
+        <p>++ -- </p>
+        <p>let idade = 18</p>
+        <p>console.log(idade++)</p>
+        <p>console.log(idade)</p>
+    </code>
+    <h2>Operadores de Atribuição</h2>
+    <code>
+        let valor = 100
+        valor = valor + valor
+        valor += valor
+        console.log(valor)
+    </code>
+    <h2>Operadores de Igualdade</h2>
+    <h3>Igualdade estrita</h3>
+    <code>        
+        console.log (1 === 1)
+        console.log ('1' === 1)
+        <h3>Igualdade solta</h3>
+        console.log (1 == 1)
+        console.log('1' == 1)
+    </code>
+    <h2>Operador Ternário</h2>
+    <p>Tem um cliente, 100 premium, comum</p>
+    <code>        
+        let pontos = 100
+        let tipo = pontos > 100 ? 'premium' : 'comum'
+        console.log(tipo)
+    </code>
+    <h2>Operadores Lógicos</h2>
+    <h3>(&&)</h3>
+    <p>Retorna TRUE se os dois operandos forem true</p>
+    <code>         
+        let maiorDeIdade = false
+        let possuiCarteiraDeTrabalho = true
+        let podeAplicar = maiorDeIdade && possuiCarteiraDeTrabalho
+        console.log(podeAplicar)
+    </code>
+    <h3>Operador Lógico</h3>
+    <p>Retorna true se um dos operandos forem true
+    </p>
+    <code>
+        let maiorDeIdade = false
+        let possuiCarteiraDeTrabalho = true
+        let podeAplicar = maiorDeIdade || possuiCarteiraDeTrabalho
+        console.log(podeAplicar)
+    </code>
+    <h3>Operador NOT (!)</h3>
+    <code>
+    let maiorDeIdade = false
+    let possuiCarteiraDeTrabalho = false
+    let podeAplicar = maiorDeIdade || possuiCarteiraDeTrabalho
+    console.log('pode aplicar: ',podeAplicar)
+    let cadidatoRecusado = !podeAplicar
+    console.log('Candidato Recusado:',cadidatoRecusado)
+    </code>
+</body>
+</html>
