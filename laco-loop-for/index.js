@@ -23,8 +23,31 @@
 // }
 
 // 3. Do..While
-let i = 0 
-do {
-    console.log('digitando!')
-    i++
-} while (i < 10)
+// let i = 0 
+// do {
+//     console.log('digitando!')
+//     i++
+// } while (i < 10)
+
+// 4. For..In
+
+const pessoa = {
+    nome: 'Gabriel',
+    idade: 27
+}
+
+for(let chave in pessoa) {
+    console.log(chave,pessoa['nome'])
+}
+
+const cores = ['Vermelho','Azul','Verde']
+
+for (let indice in cores){
+    console.log(indice,cores[indice])
+}
+
+// 5. For..Of
+
+for(let cor of cores) {
+    console.log(cor)
+}
