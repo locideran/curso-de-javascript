@@ -1,26 +1,18 @@
-// let idade = 3
-// console.log(idade)
-// let altura = 180
-// console.log(altura)
-// camelCase
+/* Vamos entender Variáveis
+Variáveis são "recipientes" onde podemos amazenar informações que podem variar, ou seja, podem ter qualquer tipo de valor.
 
-let nomeCompleto = 'Gabriel Mascarenhas de Andrade Vilanova'
-console.log(nomeCompleto)
+No JavaScript temos 3 palavras-chaves para declarar variáveis: 
+-> var
+-> let
+-> const
+*/
 
-let urunko = 'Locideran'
-console.log(urunko)
+//Declaração de variáveis 
+var a,b,c,x; 
 
-let idade = 27
-console.log(idade)
-
-let altura = 166
-console.log(altura)
-
-let cidade = 'Aracaju'
-console.log(cidade)
-
-let estado = 'Sergipe'
-console.log(estado)
-
-let pais = 'Brasil'
-console.log(pais)
+//Atribuição dos valores
+a = 4;
+b = -5;
+c = 10;
+x = ax + bx + c;
+alert(x);
