@@ -8,8 +8,11 @@ Pode ser encarado como "mini-programas" projetados para fazer uma tarefa que vai
 Uma função JavaScript é executada quando "algo" a invoca (chama-a).
 */
 
-function soma(valor1,valor2) {
-    return valor1 + valor2;    
+function paraCelsius(valorFahrenheit) {
+    return (5/9) * (valorFahrenheit - 32)
 }
 
-    document.getElementById
+var x = paraCelsius(98);
+
+
+alert("A temperatura é de " + x +" graus celsius")
