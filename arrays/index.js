@@ -13,11 +13,13 @@ E assim por diante.
 */
 
 
-const lista = [
-    "arroz",
-    "feijão",
-    "leite",
-    "macarrão"
-];
+const pessoa = [
+    "Gabriel",
+    "Mascarenhas",
+    27
+]
 
-alert(lista[3]);
+pessoa.splice(1,0,"intem adicionado 1","item adicionado2")
+
+
+document.getElementById("teste").innerHTML = pessoa
