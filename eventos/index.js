@@ -21,3 +21,19 @@ onload -> Disparado quando a página terminou de ser carregada. Body.
 onresize -> Disparado quando há um redimencionamento da janela
 
 */
+
+
+
+function viraVermelho() {
+    let div = document.getElementById("teste")
+    div.style.backgroundColor = "red"
+}
+
+function viraAzul() {
+    let div = document.getElementById("teste")
+    div.style.backgroundColor = "blue"
+}
+
+function limpaTexto() {
+    document.getElementById("campoTexto").value = ""
+}
